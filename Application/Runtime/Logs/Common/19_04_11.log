@@ -1,0 +1,26 @@
+[ 2019-04-11T08:31:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-04-11T14:13:52+08:00 ] 192.168.215.9 /mybbs/index.php/Admin/User/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Mybbs
+
+[ 2019-04-11T14:13:52+08:00 ] 192.168.215.9 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2019-04-11T19:15:38+08:00 ] 192.168.215.8 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-04-11T19:16:31+08:00 ] 192.168.215.7 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
