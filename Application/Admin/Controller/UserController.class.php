@@ -80,7 +80,7 @@ class UserController extends CommonController
 
     // 把分页生成的 html页码 分配给模板
     
-      $this->assign('html_page', $html_page);
+      // $this->assign('html_page', $html_page);
 
       // 获取数据 
       $users = $User->where( $condition )  
@@ -89,7 +89,7 @@ class UserController extends CommonController
 
         //显示数据
         $this->assign('users',$users);
-        $this->assign('html',$html_page);
+        $this->assign('html_page',$html_page);
         $this->display();//在view/user/index.html
     }
     //删除指定用户
@@ -167,4 +167,38 @@ public function update()
      // 进行缩放处理, 生成新的缩略图文件 
      $image->thumb(150, 150)->save('./'.getSm($this->filename));
   }
+
+   //填写新密码
+    public function editUpwd()
+    {
+        $this->display();
+    }
+    //提交,验证,保存到数据库
+    public function updateUpwd()
+    {
+        $upwd1=$_POST['new_upwd1'];
+        $upwd2=$_POST['new_upwd2'];
+        if(empty($upwd1) || empty($upwd2))
+        {
+            $this->error('密码不能为空');
+        }
+        if($upwd1!==$upwd2)
+        {
+            $this->error('密码不一致');
+        }
+        //原密码是否正确 表单密码 和数据库密码核对
+        $user = $_SESSION['userInfo'];
+        $res = password_verify($upwd, $user[upwd]);
+        if($res){
+            $this->error('原密码不正确');
+        }
+        //更新密码
+        $upwd1=password_hash($upwd1,PASSWORD_DEFAULT);
+        $res= M('bbs_user')->where("uid={$user['uid']}")->save(['upwd'=>$upwd1]);
+        if($res){
+          $this->success('修改密码成功','/index.php?m=admin&c=index&a=index');
+        }else{
+          $this->error('修改密码失败');
+        }
+    }
 }

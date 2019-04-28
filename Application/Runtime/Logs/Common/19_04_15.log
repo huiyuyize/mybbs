@@ -1,0 +1,160 @@
+[ 2019-04-15T08:59:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2019-04-15T09:36:01+08:00 ] 127.0.0.1 /post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Post
+
+[ 2019-04-15T09:36:13+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-04-15T09:36:22+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-04-15T09:45:41+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2019-04-15T09:49:25+08:00 ] 127.0.0.1 /post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Post
+
+[ 2019-04-15T09:53:51+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2019-04-15T09:53:53+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-04-15T09:53:54+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2019-04-15T10:59:28+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2019-04-15T10:59:48+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-04-15T11:01:16+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2019-04-15T11:11:55+08:00 ] 127.0.0.1 /post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Post
+
+[ 2019-04-15T11:14:15+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-04-15T11:26:24+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2019-04-15T12:02:02+08:00 ] 127.0.0.1 /images/common/tavatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2019-04-15T12:02:02+08:00 ] 127.0.0.1 /images/common/online_admin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2019-04-15T12:02:02+08:00 ] 127.0.0.1 /Public/static/image/common/pn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2019-04-15T12:02:02+08:00 ] 127.0.0.1 /images/common/faq.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-04-15T12:02:02+08:00 ] 127.0.0.1 /Public/static/image/common/midavt_shadow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2019-04-15T12:05:43+08:00 ] 127.0.0.1 /images/common/online_admin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2019-04-15T12:05:43+08:00 ] 127.0.0.1 /images/common/tavatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-04-15T12:05:43+08:00 ] 127.0.0.1 /images/common/faq.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2019-04-15T12:05:47+08:00 ] 127.0.0.1 /images/common/faq.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2019-04-15T12:05:47+08:00 ] 127.0.0.1 /images/common/online_admin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-04-15T12:05:47+08:00 ] 127.0.0.1 /images/common/tavatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+
+[ 2019-04-15T12:05:48+08:00 ] 127.0.0.1 /images/common/tavatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2019-04-15T12:05:48+08:00 ] 127.0.0.1 /images/common/online_admin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-04-15T12:05:48+08:00 ] 127.0.0.1 /images/common/faq.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2019-04-15T15:00:14+08:00 ] 127.0.0.1 /forum.php?mod=viewthread&tid=6&fromuid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Forum
+
+[ 2019-04-15T15:00:46+08:00 ] 127.0.0.1 /forum.php?mod=viewthread&tid=6&extra=&ordertype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Forum
+

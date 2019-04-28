@@ -15,14 +15,14 @@
             <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
             <ul class="navbar-list clearfix">
                 <li><a class="on" href="index.html">首页</a></li>
-                <li><a href="http://www.mycodes.net/" target="_blank">网站首页</a></li>
+                <li><a href="/index.php?m=home&c=index&a=index" target="_blank">网站首页</a></li>
             </ul>
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="#">管理员</a></li>
-                <li><a href="#">修改密码</a></li>
-                <li><a href="#">退出</a></li>
+                <li><a href="#"><?=$_SESSION['userInfo']['uname']?></a></li>
+                <li><a href="/index.php?m=admin&c=user&a=editUpwd">修改密码</a></li>
+                <li><a href="/index.php?m=admin&c=login&a=logout">退出</a></li>
             </ul>
         </div>
     </div>
@@ -46,8 +46,22 @@
                     <a href="#"><i class="icon-font">&#xe018;</i>分区管理</a>
                     <ul class="sub-menu">
                        
-                        <li><a href="system.html"><i class="icon-font">&#xe046;</i>添加分区</a></li>
-                        <li><a href="system.html"><i class="icon-font">&#xe045;</i>查看分区</a></li>
+                        <li><a href="/index.php?m=admin&c=part&a=create"><i class="icon-font">&#xe046;</i>添加分区</a></li>
+                        <li><a href="/index.php?m=admin&c=part&a=index"><i class="icon-font">&#xe045;</i>查看分区</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>板块管理</a>
+                    <ul class="sub-menu">
+                       
+                        <li><a href="/index.php?m=admin&c=cate&a=create"><i class="icon-font">&#xe046;</i>添加板块</a></li>
+                        <li><a href="/index.php?m=admin&c=cate&a=index"><i class="icon-font">&#xe045;</i>查看板块</a></li>
+                    </ul>
+                </li>
+                 <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>贴子管理</a>
+                    <ul class="sub-menu">
+                        <li><a href="/index.php?m=admin&c=reply&a=index"><i class="icon-font">&#xe045;</i>查看贴子</a></li>
                     </ul>
                 </li>
             </ul>
@@ -114,7 +128,7 @@
     </div>
     <!--/main-->
 
->
+
 </div>
 </body>
 </html>

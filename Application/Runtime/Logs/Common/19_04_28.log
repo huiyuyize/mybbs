@@ -1,0 +1,30 @@
+[ 2019-04-28T14:48:02+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2019-04-28T14:50:54+08:00 ] 127.0.0.1 /Public/static/image/common/pn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+
+[ 2019-04-28T14:50:54+08:00 ] 127.0.0.1 /Public/static/image/common/midavt_shadow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2019-04-28T14:54:21+08:00 ] 127.0.0.1 /Public/static/image/common/pn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2019-04-28T14:54:21+08:00 ] 127.0.0.1 /Public/static/image/common/midavt_shadow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-04-28T14:55:57+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+

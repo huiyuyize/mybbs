@@ -1,0 +1,106 @@
+<extend name="Index/index"/>
+
+<block name="main">
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="/index.php" method="get">
+                    <input type="hidden" name="m" value="admin">
+                    <input type="hidden" name="c" value="post">
+                    <input type="hidden" name="a" value="index">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">版块:</th>
+                            <td>
+                                <select name="cid" id="">
+                                    <option value="">全部</option>
+                                    <?php foreach($cates as $cate):  ?>
+                                    <option value="{$cate['cid']}">{$cate['cname']}</option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </td>
+                            <th width="70">标题:</th>
+                            <td><input class="common-text" name="title" id="" type="text"></td>
+                            <th width="70">发帖人:</th>
+                            <td><input class="common-text" name="uname" id="" type="text"></td>
+                            <td><input class="btn btn-primary btn2"  value="查询" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="insert.html"><i class="icon-font"></i>新增作品</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>标题</th>
+                            <th>作者</th>
+                            <th style="text-align: center;">发布时间</th>
+                            <th style="text-align: center;">操作</th>
+                        </tr>
+                       
+                    <?php foreach($posts as $post): ?>   
+                        <tr>
+                           <td>{$post['pid']}</td>
+                           <td>{$post['title']}</td>
+                           <td>{$users[$post['uid']]['uname']}</td>
+                           <td style="text-align: center;">{:date('Y-m-d H:i:s',$post['created_at'])}</td>
+                            <td style="text-align: center;">
+                               
+                                <a class="link-update" href="/index.php?m=admin&c=post&a=edit&pid={$post['pid']}">修改</a>
+                               
+                                &nbsp;|&nbsp;
+                               
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=del&pid={$post['pid']}">删除</a>
+                               
+                                &nbsp;|&nbsp;
+
+                                <?php if ($post['is_jing']): ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=cancelJing&pid={$post['pid']}">取消加精</a>
+                                <?php else: ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=setJing&pid={$post['pid']}">加精</a>
+                                <?php endif; ?>
+
+                                &nbsp;|&nbsp;
+
+                                <?php if ($post['is_top']): ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=cancelTop&pid={$post['pid']}">取消置顶</a>
+                                <?php else: ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=setTop&pid={$post['pid']}">置顶</a>
+                                <?php endif; ?>
+                                
+                                &nbsp;|&nbsp;
+                                
+                                <?php if ($post['is_display']): ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=setHidden&pid={$post['pid']}">隐藏</a>
+                                <?php else: ?>
+                                <a class="link-del" href="/index.php?m=admin&c=post&a=setDisplay&pid={$post['pid']}">显示</a>
+                                <?php endif; ?>
+                                
+                                &nbsp;|&nbsp;
+                                <a class="link-del" href="/index.php?m=admin&c=reply&a=index&pid={$post['pid']}">查看回复</a>
+                            </td>
+                        </tr>
+                    <?php endforeach;  ?>
+                    </table>
+                    <div class="list-page"> <?=$html_page?></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</block>

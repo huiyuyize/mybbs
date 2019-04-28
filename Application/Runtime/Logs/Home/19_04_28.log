@@ -1,0 +1,616 @@
+[ 2019-04-28T14:48:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017982s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060720s ]
+
+[ 2019-04-28T14:48:15+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `bbs_user` WHERE ( uname='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002311s ]
+
+[ 2019-04-28T14:48:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2019-04-28T14:50:35+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2019-04-28T14:50:44+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=27 ) ORDER BY `updated_at` desc  [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0087s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2019-04-28T14:50:54+08:00 ] 127.0.0.1 /index.php?m=home&c=reply&a=create&pid=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bbs_post` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_reply` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `bbs_reply` WHERE ( pid=36 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0003s ]
+SQL: UPDATE `bbs_post` SET `view_cnt`=view_cnt+1 WHERE ( pid=36 ) [ RunTime:0.0720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2019-04-28T14:51:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2019-04-28T14:51:29+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=28 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0054s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2019-04-28T14:52:15+08:00 ] 127.0.0.1 /index.php?m=home&c=reply&a=create&pid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0651s ]
+SQL: SELECT * FROM `bbs_post` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_reply` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `bbs_reply` WHERE ( pid=38 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0003s ]
+SQL: UPDATE `bbs_post` SET `view_cnt`=view_cnt+1 WHERE ( pid=38 ) [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2019-04-28T14:53:57+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=27 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0036s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2019-04-28T14:54:03+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=32 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0061s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2019-04-28T14:54:06+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=33 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0029s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2019-04-28T14:54:21+08:00 ] 127.0.0.1 /index.php?m=home&c=reply&a=create&pid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `bbs_post` WHERE `pid` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_reply` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `bbs_reply` WHERE ( pid=32 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0003s ]
+SQL: UPDATE `bbs_post` SET `view_cnt`=view_cnt+1 WHERE ( pid=32 ) [ RunTime:0.0418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2019-04-28T14:55:27+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=27 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-04-28T14:55:57+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=create&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0053s ]
+SQL: SELECT `cid`,`cname` FROM `bbs_cate`  [ RunTime:0.0969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2019-04-28T14:56:13+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0072s ]
+SQL: INSERT INTO `bbs_post` (`cid`,`title`,`content`,`uid`,`created_at`,`updated_at`) VALUES ('27','xxxxx','xxxxx','29','1556434572','1556434572') [ RunTime:0.1584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2019-04-28T14:56:14+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=create&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0039s ]
+SQL: SELECT `cid`,`cname` FROM `bbs_cate`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2019-04-28T14:56:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2019-04-28T14:56:17+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=27 ) ORDER BY `updated_at` desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0032s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2019-04-28T14:58:42+08:00 ] 127.0.0.1 /index.php?m=home&c=reply&a=create&pid=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `bbs_post` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbs_reply` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `bbs_reply` WHERE ( pid=36 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0003s ]
+SQL: UPDATE `bbs_post` SET `view_cnt`=view_cnt+1 WHERE ( pid=36 ) [ RunTime:0.1565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2019-04-28T14:58:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2019-04-28T14:58:51+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=28 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2019-04-28T14:58:52+08:00 ] 127.0.0.1 /index.php?m=home&c=reply&a=create&pid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `bbs_post` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbs_reply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `bbs_reply` WHERE ( pid=38 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `bbs_user`  [ RunTime:0.0003s ]
+SQL: UPDATE `bbs_post` SET `view_cnt`=view_cnt+1 WHERE ( pid=38 ) [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2019-04-28T15:01:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `bbs_part` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `bbs_part`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bbs_cate` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `bbs_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005231s ]
+
+[ 2019-04-28T15:01:14+08:00 ] 127.0.0.1 /index.php?m=home&c=post&a=index&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `bbs_post` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `bbs_post` WHERE ( cid=27 ) ORDER BY `updated_at` desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbs_user` [ RunTime:0.0054s ]
+SQL: SELECT `uid`,`uname` FROM `bbs_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Use of undefined constant cid - assumed 'cid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\mybbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+

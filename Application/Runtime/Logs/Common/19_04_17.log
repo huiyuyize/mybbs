@@ -1,0 +1,51 @@
+[ 2019-04-17T08:30:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-04-17T08:59:47+08:00 ] 127.0.0.1 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Index
+
+[ 2019-04-17T09:03:46+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2019-04-17T09:04:21+08:00 ] 127.0.0.1 /Public/static/image/common/pn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+
+[ 2019-04-17T09:04:21+08:00 ] 127.0.0.1 /Public/static/image/common/midavt_shadow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007033s ]
+
+[ 2019-04-17T14:13:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-04-17T14:19:32+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2019-04-17T14:19:45+08:00 ] 127.0.0.1 /Public/static/image/common/px.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-04-17T14:20:11+08:00 ] 127.0.0.1 /Public/static/image/common/pn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2019-04-17T14:20:11+08:00 ] 127.0.0.1 /Public/static/image/common/midavt_shadow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
